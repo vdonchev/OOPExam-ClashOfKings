@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClashOfKings.Attributes.ArmyStructureAttribute" Collapsed="true">
+    <Position X="22.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\ArmyStructureAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Attributes.CommandAttribute" Collapsed="true">
+    <Position X="22.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\CommandAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Attributes.MilitaryUnitAttribute" Collapsed="true">
+    <Position X="24.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\MilitaryUnitAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.ClashOfKingsMain" Collapsed="true">
+    <Position X="28" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ClashOfKingsMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Engine.Factories.ArmyStructureFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Engine\Factories\ArmyStructureFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClashOfKings.Engine.Factories.CommandFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Factories\CommandFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClashOfKings.Engine.Factories.UnitFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Factories\UnitFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClashOfKings.Engine.WarEngine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAEAAgAAAAAAAAAAABBABACAAAAgAI=</HashCode>
+      <FileName>Engine\WarEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClashOfKings.Engine.Westeros" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EARAAABAAAAAAAAAAAAgICAAgAAAgAIAAAJABAAEAAg=</HashCode>
+      <FileName>Engine\Westeros.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClashOfKings.Exceptions.DuplicateCityException" Collapsed="true">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DuplicateCityException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Exceptions.DuplicateHouseException" Collapsed="true">
+    <Position X="6.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DuplicateHouseException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Exceptions.GameException" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\GameException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Exceptions.InsufficientCitySizeException" Collapsed="true">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InsufficientCitySizeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Exceptions.InsufficientFundsException" Collapsed="true">
+    <Position X="10.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InsufficientFundsException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Exceptions.InsufficientHousingSpacesException" Collapsed="true">
+    <Position X="13" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InsufficientHousingSpacesException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Exceptions.LocationOutOfRangeException" Collapsed="true">
+    <Position X="15.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\LocationOutOfRangeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Exceptions.NotEnoughProvisionsException" Collapsed="true">
+    <Position X="1.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\NotEnoughProvisionsException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Armies.AirForce.Dragon" Collapsed="true">
+    <Position X="9.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAIAAAAAACAAgAAAEAAAA=</HashCode>
+      <FileName>Models\Armies\AirForce\Dragon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Armies.Cavalry.Dothraki" Collapsed="true">
+    <Position X="11.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAAAIAAAAAAAAAEAAAAAAAAAAAAAAAgIAAAAAAAA=</HashCode>
+      <FileName>Models\Armies\Cavalry\Dothraki.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Armies.Cavalry.Horseman" Collapsed="true">
+    <Position X="13.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACABgAAAAAAAAACAABAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Models\Armies\Cavalry\Horseman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Armies.Cavalry.Knight" Collapsed="true">
+    <Position X="16" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAABAAAACAAAAEAAAAAgAAAAAAAg=</HashCode>
+      <FileName>Models\Armies\Cavalry\Knight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Armies.Infantry.FootSoldier" Collapsed="true">
+    <Position X="18.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAAAQQAAAAAAAAAAABAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\Armies\Infantry\FootSoldier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Armies.Infantry.SellSword" Collapsed="true">
+    <Position X="20.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAACAAAACAQAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Models\Armies\Infantry\SellSword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Armies.MilitaryUnit" Collapsed="true">
+    <Position X="15" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAgAAgAAAABAAAAAQAAAAgEQAAABAAAAA=</HashCode>
+      <FileName>Models\Armies\MilitaryUnit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClashOfKings.Models.City" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>yIQABAIkEQkgAAQBAIAgQRSAIAgEwAAAIIACAgkEAII=</HashCode>
+      <FileName>Models\City.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClashOfKings.Models.House" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAiAAAAIJAAAgACCAIAAQAAAAECAAAIAAIBAAEGAA=</HashCode>
+      <FileName>Models\House.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClashOfKings.Models.Commands.AttackCommand" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Models\Commands\AttackCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Commands.CityStatusCommand" Collapsed="true">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Commands\CityStatusCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Commands.Command" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Models\Commands\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClashOfKings.Models.Commands.ContinentStatusCommand" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Commands\ContinentStatusCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Commands.CreateCityCommand" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Commands\CreateCityCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Commands.CreateHouseCommand" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Commands\CreateHouseCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Commands.ExitCommand" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Commands\ExitCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Commands.HouseStatusCommand" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Commands\HouseStatusCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.Models.Commands.MoveCommand" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Models\Commands\MoveCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClashOfKings.UI.ConsoleInputController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\ConsoleInputController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClashOfKings.UI.ConsoleRenderer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>UI\ConsoleRenderer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="ClashOfKings.Contracts.IArmyBase" Collapsed="true">
+    <Position X="17.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAIAAQAAAAQAAIAAQAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IArmyBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IArmyStructure" Collapsed="true">
+    <Position X="22.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAACAAACBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IArmyStructure.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IArmyStructureFactory" Collapsed="true">
+    <Position X="24.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Contracts\IArmyStructureFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IAttack" Collapsed="true">
+    <Position X="1" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IAttack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.ICity" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Contracts\ICity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.ICityController" Collapsed="true">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAgAAAAIAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Contracts\ICityController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.ICommand" Collapsed="true">
+    <Position X="26.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.ICommandFactory" Collapsed="true">
+    <Position X="28" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\ICommandFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IContinent" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAABAAAAAAAAAAAAAACAAAAAAAAAAAABABAAAAAg=</HashCode>
+      <FileName>Contracts\IContinent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IDefendable" Collapsed="true">
+    <Position X="14" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Contracts\IDefendable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IDestroyable" Collapsed="true">
+    <Position X="6" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IDestroyable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IDowngradeable" Collapsed="true">
+    <Position X="20.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IDowngradeable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IFoodProducible" Collapsed="true">
+    <Position X="17.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IFoodProducible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IGameEngine" Collapsed="true">
+    <Position X="22.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAEAAgAAAAAAAAAAABBABAAAAAAAAI=</HashCode>
+      <FileName>Contracts\IGameEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IHouse" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IHouse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IInputController" Collapsed="true">
+    <Position X="24.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IInputController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IMilitaryUnit" Collapsed="true">
+    <Position X="1" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAgAAAABAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IMilitaryUnit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IRenderable" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Contracts\IRenderable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IRenderer" Collapsed="true">
+    <Position X="26.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Contracts\IRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.ITaxable" Collapsed="true">
+    <Position X="22.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\ITaxable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.ITaxCollector" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\ITaxCollector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IUnitFactory" Collapsed="true">
+    <Position X="28" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IUnitFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IUpdateable" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IUpdateable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClashOfKings.Contracts.IUpgradeable" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Contracts\IUpgradeable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ClashOfKings.Models.Armies.UnitType" Collapsed="true">
+    <Position X="24.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIABAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Armies\UnitType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClashOfKings.Models.CityType" Collapsed="true">
+    <Position X="22.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAABAAAAAAAAAAAAAgIAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CityType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

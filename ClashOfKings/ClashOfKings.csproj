@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22582AD4-F610-4ABE-B2CF-CBD7C4844787}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClashOfKings</RootNamespace>
+    <AssemblyName>ClashOfKings</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\MilitaryUnitAttribute.cs" />
+    <Compile Include="Attributes\ArmyStructureAttribute.cs" />
+    <Compile Include="Attributes\CommandAttribute.cs" />
+    <Compile Include="ClashOfKingsMain.cs" />
+    <Compile Include="Contracts\IArmyBase.cs" />
+    <Compile Include="Contracts\ICommandFactory.cs" />
+    <Compile Include="Contracts\IUnitFactory.cs" />
+    <Compile Include="Contracts\IArmyStructureFactory.cs" />
+    <Compile Include="Contracts\ICityController.cs" />
+    <Compile Include="Contracts\ICommand.cs" />
+    <Compile Include="Contracts\IContinent.cs" />
+    <Compile Include="Contracts\IDefendable.cs" />
+    <Compile Include="Contracts\IDowngradeable.cs" />
+    <Compile Include="Contracts\IFoodProducible.cs" />
+    <Compile Include="Contracts\IGameEngine.cs" />
+    <Compile Include="Contracts\IRenderable.cs" />
+    <Compile Include="Contracts\ITaxable.cs" />
+    <Compile Include="Contracts\ITaxCollector.cs" />
+    <Compile Include="Contracts\IUpdateable.cs" />
+    <Compile Include="Contracts\IUpgradeable.cs" />
+    <Compile Include="Engine\Factories\ArmyStructureFactory.cs" />
+    <Compile Include="Engine\Factories\CommandFactory.cs" />
+    <Compile Include="Engine\WesterosExtended.cs" />
+    <Compile Include="Exceptions\CityNotAdvancedEnough.cs" />
+    <Compile Include="Exceptions\CityNotFoundException.cs" />
+    <Compile Include="Exceptions\DuplicateCityException.cs" />
+    <Compile Include="Exceptions\DuplicateHouseException.cs" />
+    <Compile Include="Exceptions\GameException.cs" />
+    <Compile Include="Exceptions\InsufficientCitySizeException.cs" />
+    <Compile Include="Exceptions\InsufficientHousingSpacesException.cs" />
+    <Compile Include="Contracts\IAttack.cs" />
+    <Compile Include="Contracts\ICity.cs" />
+    <Compile Include="Contracts\IArmyStructure.cs" />
+    <Compile Include="Contracts\IDestroyable.cs" />
+    <Compile Include="Contracts\IHouse.cs" />
+    <Compile Include="Contracts\IInputController.cs" />
+    <Compile Include="Contracts\IMilitaryUnit.cs" />
+    <Compile Include="Contracts\IRenderer.cs" />
+    <Compile Include="Engine\Factories\UnitFactory.cs" />
+    <Compile Include="Engine\WarEngine.cs" />
+    <Compile Include="Engine\Westeros.cs" />
+    <Compile Include="Exceptions\InsufficientFundsException.cs" />
+    <Compile Include="Exceptions\LocationOutOfRangeException.cs" />
+    <Compile Include="Exceptions\NotEnoughProvisionsException.cs" />
+    <Compile Include="Models\Armies\AirForce\Dragon.cs" />
+    <Compile Include="Models\Armies\Cavalry\Dothraki.cs" />
+    <Compile Include="Models\Armies\Infantry\Unsullied.cs" />
+    <Compile Include="Models\Armies\UnitType.cs" />
+    <Compile Include="Models\Armies\Cavalry\Horseman.cs" />
+    <Compile Include="Models\Armies\Cavalry\Knight.cs" />
+    <Compile Include="Models\Armies\Infantry\FootSoldier.cs" />
+    <Compile Include="Models\Armies\Infantry\SellSword.cs" />
+    <Compile Include="Models\Armies\MilitaryUnit.cs" />
+    <Compile Include="Models\ArmyStructures\ArmyStructureBase.cs" />
+    <Compile Include="Models\ArmyStructures\Barracks.cs" />
+    <Compile Include="Models\ArmyStructures\DragonLair.cs" />
+    <Compile Include="Models\ArmyStructures\Stable.cs" />
+    <Compile Include="Models\City.cs" />
+    <Compile Include="Models\CityType.cs" />
+    <Compile Include="Models\Commands\Extended\AddNeighborsToCityCommand.cs" />
+    <Compile Include="Models\Commands\AttackCommand.cs" />
+    <Compile Include="Models\Commands\Extended\BuildStructureCommand.cs" />
+    <Compile Include="Models\Commands\CityStatusCommand.cs" />
+    <Compile Include="Models\Commands\Command.cs" />
+    <Compile Include="Models\Commands\CreateCityCommand.cs" />
+    <Compile Include="Models\Commands\CreateHouseCommand.cs" />
+    <Compile Include="Models\Commands\ExitCommand.cs" />
+    <Compile Include="Models\Commands\Extended\CreateUnitCommand.cs" />
+    <Compile Include="Models\Commands\Extended\UpgradeCityCommand.cs" />
+    <Compile Include="Models\Commands\HouseStatusCommand.cs" />
+    <Compile Include="Models\Commands\ContinentStatusCommand.cs" />
+    <Compile Include="Models\Commands\MoveCommand.cs" />
+    <Compile Include="Models\GreatHouse.cs" />
+    <Compile Include="Models\House.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\ConsoleInputController.cs" />
+    <Compile Include="UI\ConsoleRenderer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
